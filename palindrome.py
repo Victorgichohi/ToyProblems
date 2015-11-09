@@ -15,7 +15,7 @@ def palindrome(text):
         for b in range(0, a):
             #the function itterates over the variable and returns a string ahead of it.
             palind = text[b:a + 1]
-            #return the reverse of what you got in the first section
+            #return the reverse of what you got in the first section if both are equal,append to all_palindromes empty list
             if palind == palind[::-1]:
                 all_palindromes.append(palind)
                 
