@@ -6,4 +6,4 @@
 def LargerNumber(num):
     big = "".join(sorted(str(num), reverse=True))
     return big
-print (LargerNumber(68734))
+print (LargerNumber(241))
